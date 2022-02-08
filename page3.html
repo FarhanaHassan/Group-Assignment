@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<title>MakanMakan</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit">Submit</button>
+      </form>  
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Menu</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Resepi</a>
+  <a href="masakanmelayu.html" onclick="w3_close()" class="w3-bar-item w3-button">Masakan Melayu</a>
+  <a href="anekakuih.html" onclick="w3_close()" class="w3-bar-item w3-button">Aneka Kuih</a>
+  <a href="anekamee.html" onclick="w3_close()" class="w3-bar-item w3-button">Aneka Mee</a>
+  <a href="inbox.html" onclick="w3_close()" class="w3-bar-item w3-button">Inbox Kami</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">Mail</div>
+    <div class="w3-center w3-padding-16">Makan Makan</div>
+    <center><iframe src="https://free.timeanddate.com/clock/i86alwci/n5089/tct/pct/ahl/tt0/tw0/tm3/td1/th1/ts1/tb1" frameborder="0" width="115" height="18" allowtransparency="true"></iframe></center>
+  </div>
+</div>
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">     
+      <img src="mee/meebasah1.jpg" alt="mee" style="width:272px; height: 411px;">
+      <a href="gorengbasah.html" title="mee" style="text-decoration: none;" target="_blank"><h3>Mee Goreng Basah</a></h3>
+      Walaupun dah sejuk, tapi masih lembut dan masih sedap. Kalau makan mee goreng, wajib ada untuk rasa lebih sedap ialah limau nipis. Perah dan kacau rata rata.
+    </div>
+    <div class="w3-quarter">
+      <img src="melayu/masala1.jpg" alt="Ayam Masalla" style="width:272px; height: 411px;">
+      <a href="ayammasalla.html" title="Ayam Masalla" style="text-decoration: none;" target="_blank"><h3>Ayam Masalla</a></h3>
+     Ayam masala adalah salah satu pilihan yang digemari oleh etnik india. juga sesuai dicicah dengan roti dan dimakan bersama pulut kuning
+    </div>
+    <div class="w3-quarter">
+      <img src="mee/meetulang1.jpg" alt="mee tulang" style="width:272px; height: 411px;">
+      <a href="meesuptulang.html" title="mee tulang" style="text-decoration: none;" target="_blank"><h3>Mee Hoon Sup Tulang Istimewa</h3>
+      Sup tulang yang sangat fresh dan lembut, boleh makan bersama mee hoon, keuy teow, mee kuning ataupun nasi.
+    </div>
+    <div class="w3-quarter">
+      <img src="kuih/bakar1.jpg" alt="Kuih Bakar Istimewa Azie Kitchen Yang Paling Sedap" style="width:272px; height: 411px;">
+      <a href="kuihbakar.html" title="Kuih Bakar Istimewa Azie Kitchen Yang Paling Sedap" 
+      style="text-decoration: none;" target="_blank"><h3>Kuih Bakar Istimewa Azie Kitchen Yang Paling Sedap</h3>
+      Memang patut lah kuihnya sedap kerana ianya dihasilkan dengan teliti dan menggunakan bahan yang asli. Resepi Kuih Bakar Istimewa yang paling sedap pernah saya nikmati seumur hidup.
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="melayu/kapitan1.jpg" alt="Ayam Kari Kapitan" style="width:272px; height: 411px;">
+      <a href="ayamkarikapitan.html" title="Ayam Kari Kapitan" style="text-decoration: none;" target="_blank"><h3>Ayam Kari Kapitan</a></h3>
+      Ayam kari kapitan adalah salah satu masakan nyonya yang terkenal di Penang dan ia salah satu masakan orang2 peranakan yang tersohor
+    </div>
+    <div class="w3-quarter">
+      <img src="mee/yeemee1.jpg" alt="yeemee" style="width:272px; height: 411px;">
+      <a href="yeemee.html" title="yeemee" style="text-decoration: none;" target="_blank"><h3>Yee Mee Goreng</a></h3>
+      Wika menggoreng yee mee, lebih sedap jika dilebihkan kicap lagi pulak warnanya akan nampak lebih menyelerakan.
+    </div>
+    <div class="w3-quarter">
+      <img src="kuih/sagu1.jpg" alt="Kuih Sagu" style="width:272px; height: 411px;">
+      <a href="kuihsagu.html" title="Kuih Sagu" 
+      style="text-decoration: none;" target="_blank"><h3>Kuih Sagu Berwarna Merah</h3>
+      Resepi Kuih Sagu berwarna merah merupakan kuih tradisi yang sedap dan tak lapuk dek zaman. Resepi kuih ni mudah sahaja tetapi rasanya sangat memukau hati.
+    </div>
+    <div class="w3-quarter">
+      <img src="mee/laksapenang1.jpg" alt="laksa penang" style="width:272px; height: 411px;">
+      <a href="laksapenang.html" title="laksa penang" style="text-decoration: none;" target="_blank"><h3>Laksa Penang Kelantan</a></h3>
+     Laksa penang di Kelantan mempunyai kuah yang berlemak, terasa pedas, masam, manis didalam kuah yang disajikan.
+    </div>
+  </div>
+<script>
+  mybutton = document.getElementById("myBtn");
+  window.onscroll = function() {scrollFunction()};
+  function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+
+</script>
+ <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="index.html" class="w3-bar-item w3-button w3-hover-black">1</a>
+      <a href="page2.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="page3.html" class="w3-bar-item w3-black w3-button">3</a>
+      <a href="page4.html" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="page5.html" class="w3-bar-item w3-button w3-hover-black">5</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  <hr id="about">
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>ABOUT US</h3><br>
+      Mencari resepi yang simple dan cepat? Di sini kami kongsikan pelbagai resepi yang mudah2!
+    </div>
+  
+       <div class="w3-third">
+      <h3>SOCIAL MEDIA</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <a href="https://www.aziekitchen.com/" target="_blank">
+          <img src="image/blog.png" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">AzieKitchen</span><br>
+          <span>Blogspot</span></a>
+        </li>
+        <li class="w3-padding-16">
+          <a href="https://www.facebook.com/aziekitchenn" target="_blank">
+          <img src="image/facebook.png" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">AzieKitchen</span><br>
+          <span>Facebook</span></a>
+        <li class="w3-padding-16">
+          <a href="https://www.instagram.com/aziekitchen/" target="_blank">
+          <img src="image/instagram.png" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">AzieKitchen</span><br>
+          <span>Instagram</span></a>
+        <li class="w3-padding-16">
+          <a href="https://www.youtube.com/channel/UC73cq2cG5tva9_aUCtKIu2A" target="_blank">
+          <img src="image/youtube.png" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">AzieKitchen</span><br>
+          <span>Youtube</span></a>        
+        </li>
+      </ul>
+    </div>
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Mee Bandung</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Mee Hailam</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Kuey Teow</span>
+        <span class="w3-tag w3-black w3-margin-bottom">Mee Hoon</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Sup Tulang</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Soto Ayam</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Mee Kari</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Aneka Mee</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Maggie Goreng</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Goreng Basah</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Laksa</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Yee Mee</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ayam</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Dendeng</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Kari</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Gulai</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Masakan Melayu</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Srimuka</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Puding</span> 
+        <span class="w3-tag w3-black w3-margin-bottom">Aneka Kuih</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Keria</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Sagu</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Kuih Bakar</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Cekodok</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Bingka</span>
+         <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Apam</span>     
+         <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Talam Berlauk</span><span class="w3-tag w3-black w3-margin-bottom">Mee Bandung</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Mee Hailam</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Kuey Teow</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Mee Hoon</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Sup Tulang</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Soto Ayam</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Mee Kari</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Aneka Mee</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Maggie Goreng</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Pulut</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Tepung Bungkus</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Daging</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ideas</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Nasi Kerabu</span> 
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ikan Bakar</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ikan Sambal</span>
+        <span class="w3-tag w3-black w3-margin-bottom">Asam Pedas</span>     
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Ikan Kerapu</span>
+    </div>
+  </footer>
+
+<!-- End page content -->
+<audio controls="" autoplay="" name="media">
+     <source src="horse.ogg" type="audio/ogg">
+     <source src="horse.wav" type="audio/wav">
+      <source src="css/audio.mp3" type="audio/mpeg">
+      </audio>
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
